@@ -1,0 +1,24 @@
+{
+    "name": "kalmanolah/php-query-filter-bundle",
+    "description": "Symfony2 bundle for easing query filtering by arbitrary criteria.",
+    "homepage": "https://github.com/kalmanolah/php-query-filter-bundle",
+    "type": "symfony-bundle",
+    "require": {
+        "php": "^5.3.3 || ^7.0",
+        "kalmanolah/php-query-filters": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "KalmanOlah\\": "src/KalmanOlah/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kalman Olah",
+            "email": "hello+php-qf@kalmanolah.net",
+            "homepage": "https://kalmanolah.net",
+            "role": "Developer"
+        }
+    ]
+}

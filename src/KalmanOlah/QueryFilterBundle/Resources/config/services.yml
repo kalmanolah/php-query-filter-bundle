@@ -1,0 +1,5 @@
+services:
+    query_filters:
+        class: KalmanOlah\QueryFilterBundle\Service\QueryFiltersService
+        calls:
+          - [setConfigurations, [%kalman_olah_query_filter.filter_sets%]]
