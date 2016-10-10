@@ -30,6 +30,7 @@ class QueryFiltersService
                 'KalmanOlah\QueryFilter\MongoDB\Filter\NullFilter',
                 'KalmanOlah\QueryFilter\MongoDB\Filter\NotNullFilter',
                 'KalmanOlah\QueryFilter\MongoDB\Filter\GeoNearFilter',
+                'KalmanOlah\QueryFilter\MongoDB\Filter\OrFilter',
             ],
             'transformers' => [
                 'KalmanOlah\QueryFilter\Transformer\FloatTransformer',
@@ -52,6 +53,7 @@ class QueryFiltersService
                 'KalmanOlah\QueryFilter\Doctrine\ORM\Filter\LessThanOrEqualToFilter',
                 'KalmanOlah\QueryFilter\Doctrine\ORM\Filter\NullFilter',
                 'KalmanOlah\QueryFilter\Doctrine\ORM\Filter\NotNullFilter',
+                'KalmanOlah\QueryFilter\Doctrine\ORM\Filter\OrFilter',
             ],
             'transformers' => [
                 'KalmanOlah\QueryFilter\Transformer\FloatTransformer',
